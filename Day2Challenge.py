@@ -10,6 +10,17 @@
 
 # Return the estimated weight after the specified number of weeks.
 
-def lose_weight(gender, weight, duration):
+def lose_weight():
+    gender = input("M or F:").upper()
+    weight = int(input("Enter weight:"))
+    num_weeks = int(input("Number of weeks:"))
+    
+    if gender == "M":
+        n = weight - ((0.015 * weight) * num_weeks)
+        print(n)
+    elif gender == "F":
+        n = weight - ((0.012 * weight) * num_weeks)
+        print(n)
+        
 
-    return weight
+lose_weight()
