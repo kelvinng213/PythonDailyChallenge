@@ -12,6 +12,7 @@ def divisions(n,division):
         x = n//division
         n = n - x
         number_of_times += 1
+        asdgasdlkjflka
       elif n%division != 0:
         break
     return(number_of_times)
