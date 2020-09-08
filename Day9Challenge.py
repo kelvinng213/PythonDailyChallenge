@@ -8,7 +8,8 @@
 
 #Output: 2
 
-
+n = 1+2+3-4
+print(type(n))
 
 #Input: 2minus6plus4plus7
 
